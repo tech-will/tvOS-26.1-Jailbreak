@@ -6,7 +6,7 @@ This is tested on an Apple TV HD 4th Generation
 # How was this made?
 This is basically palera1n for 26.0.1 but with a special branch of PongoOS that has support for 26.1. I was not the one who made this special branch but I have compiled it which makes it easy to run on old hardware without full compiling support and simplifies it.
 # Usage
-Download the correct version for your OS.
+Download the correct version for your OS. If you need to rejailbreak, go to the bottom.
 > [!NOTE]
 >You need to factory reset your apple TV before starting
 
@@ -40,7 +40,7 @@ Now be patient. It will reboot to recovery in about 8 minutes once it gets past 
 
 If it does get stuck, like for more than 20 minutes, unplug your apple tv and plug it back in, fake fs failed to setup. Hopefully you will still be able to get back to the homescreen.
 
-You now will be back at the recovery Screen. Now you can run this command:
+You now will be back at the recovery screen. Now you can run this command:
 ```
 ./palera1n --override-pongo build/Pongo.bin --override-kpf build/checkra1n-kpf-pongo --fakefs
 ```
