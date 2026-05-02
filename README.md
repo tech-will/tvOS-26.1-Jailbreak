@@ -63,7 +63,7 @@ make all
 ```
 Now download the latest palera1n from the releases tab for your computer, Rename it to 'palera1n' move it to your PongoOS folder after it's built and run:
 ```
-sudo chmod +x palera1n.sh
+sudo chmod +x palera1n
 ```
 Now you can continue with the jailbreak.
 
