@@ -16,7 +16,7 @@ Download the correct version for your OS.
 Once you have reset the apple TV, run 
 
 ```
-palera1n -f --force-revert
+./palera1n -f --force-revert
 ```
 This will put the apple TV in recovery, then follow the instructions to put into DFU mode.
 >[!NOTE]
@@ -27,7 +27,7 @@ Now it will boot back into the OS and you can setup your apple TV.
 Once you have set it up we can begin the jailbreak.
 Run:
 ```
-palera1n --override-pongo build/Pongo.bin --override-kpf build/checkra1n-kpf-pongo --fakefs --setup-fakefs
+./palera1n --override-pongo build/Pongo.bin --override-kpf build/checkra1n-kpf-pongo --fakefs --setup-fakefs
 ```
 Now be patient. It will reboot to recovery in about 8 minutes once it gets past 'booting PongoOS'
 
@@ -35,7 +35,7 @@ If it does get stuck, like for more than 20 minutes, unplug your apple tv and pl
 
 You now will be back at the recovery Screen. Now you can run this command:
 ```
-palera1n --override-pongo build/Pongo.bin --override-kpf build/checkra1n-kpf-pongo --fakefs
+./palera1n --override-pongo build/Pongo.bin --override-kpf build/checkra1n-kpf-pongo --fakefs
 ```
 >[!NOTE]
 > To rejailbreak simpliy run this command everytime after a reboot.
