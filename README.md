@@ -20,6 +20,13 @@ Once you have reset the apple TV, run
 ```
 This will put the apple TV in recovery, then follow the instructions to put into DFU mode.
 >[!NOTE]
+>If you are on Mac, macOS prevents the file from opening. It will report it as damaged so to fix this run:
+>```
+>xattr -d com.apple.quarantine palera1n
+>```
+>This will disable the protection for the file.
+
+>[!NOTE]
 > If it gets stuck on 'booting PongoOS' use Ctrl+C and run the command again. You will have to do this often.
 
 Now it will boot back into the OS and you can setup your apple TV.
