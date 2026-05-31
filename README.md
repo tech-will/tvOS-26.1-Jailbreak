@@ -1,7 +1,7 @@
 # tvOS-26.1-Jailbreak
 A working jalbreak for tvOS 26.1! Thanks to sawyerthemiller for providing the guide on how you do this.
 
-# Palera1n has now been updated for 26.5. Use the official palera1n now.
+# [OUTDATED] Palera1n has now been updated for 26.5. Use that instead of this. 
 This is tested on an Apple TV HD 4th Generation
 # How was this made?
 This is basically palera1n for 26.0.1 but with a special branch of PongoOS that has support for 26.1. I was not the one who made this special branch but I have compiled it which makes it easy to run on old hardware without full compiling support and simplifies it.
